@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css'><link rel="stylesheet" href="public\images\style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  
+<!-- Nav Bar -->
+<div id="mySidenav" class="sidenav">
+   <b> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="menu.html">Menu </a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact </a>
+    </b>
+  </div>
+  <!-- Use any element to open the sidenav -->
+ 
+
+  <div id="main">
+    <br><br><br><br><br><br><br><br><br><br>
+    <span style="font-size:30px;cursor:pointer " onclick="openNav()"><i class="fa-solid fa-bars-staggered fa-flip-horizontal"></i></span>
+
+  </div>
+  <div class="rect">
+  <img src="public\images\contact.png" alt="contact">
+  <img class="stamp" src="public\images\stamp.jpg" alt="stamp">
+  <h1 class="head-2"><b>Joe's <a href="index.html" >Vegan</b></a> <b>Shack</b></h1>
+  <h2 class="sub"><b><u>CONTACT US</u></b></h2>
+  <form method="post" action="process.php">
+  
+    
+    
+    <input id="first-name" type="text" required placeholder="First name" name="First-Name">
+    
+    <input type="text" required placeholder="Last name" name="Last-Name">
+    
+    <input id="eml" type="email" required placeholder="email@" name="Email">
+    
+    <textarea rows="6" required placeholder="Message" name="Message"></textarea>
+    
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+    
+  </form>
+    </div>
+  
+  
+      
+  
+  
+
+  
+  
+  
+
+
+  <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      
+
+      </script>
+      <!-- Style settings -->
+      <style>
+          
+          
+        html, body {
+          margin: 0; 
+           height: 100%;
+           overflow: hidden;
+           background-image: url("stamp.jpg");
+          
+           
+        }
+        .stamp{
+          float: right;
+           height: 100%;
+           width: 100px;
+          transform:80px ;
+          top: -20px;
+        }
+        .sub{
+          position: relative;
+          font-size:27.7px ;
+          margin-left:300px ;
+          top: -680px;
+          color: #FF5F00;
+        }
+        .buttons{
+          width: 100%;
+        }
+       
+       .buttons a:link{
+         margin-left: -300;
+         position: relative;
+         display: flex;
+         justify-content: space-around;
+         top:-600px;
+         font-size: 22.7px;
+         font-weight: 500px;
+         text-decoration: none;
+
+        
+         
+       }
+       .buttons a:visited{
+         color: #DFDFDE;
+       }
+       .head-2 a:link{
+         text-decoration: none;
+         color: #82954B;
+       }
+       .head-2 a:visited{
+         color: #82954B;
+         text-decoration: none;
+       }
+       .buttons a:hover{
+        box-shadow:  #555;
+        color: #555;             
+       }
+       .buttons a{
+        color: #555;
+        font-family: 'Futura', sans-serif;
+        
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+}        
+       
+        .btn  {
+          background-color: #FF5F00 !important;
+          color: #DFDFDE;
+          border-radius: 12px;
+        }
+        .btn{
+          top: -235px;
+          position: relative;
+          margin-left: 300px;
+        }
+        .fa-solid {
+          color: #FF5F00;
+        }
+        .head-2 {
+          margin-left: 297px;
+          top: -730px;
+          position: relative;
+          color: #FF5F00;
+          font-weight: 500;
+          font-size: 30.4px;
+       
+        }
+      .h-2 {
+        font-size: 76.6px ;
+        color: #FF5F00;
+        margin-left: 300px;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        top: -500px;
+        
+        
+     
+      }
+        .ni{
+          margin-left: 300px;
+          position: relative;
+          color: #DFDFDE;
+          font-weight: 500;
+          font-size: 22.7px;
+          top: -10px;
+          text-align: center;
+          display: flex;
+          justify-content: space-between;
+          
+        }
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: absolute;
+          z-index: 1;
+          top: o;
+          left: 0;
+          background-color: rgba(0, 0, 255, 0.1);
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: black;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #EFD345;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        #main {
+          transition: margin-left .5s;
+          padding: 16px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+
+
+         .rect {
+          max-height: 100%;
+          max-width: 100%;
+          top: -300px;
+          background-color: #fff;
+          margin-left: 68px;
+          position: relative; 
+          
+        } 
+      img{
+        height: 100%;
+        width: 286px;
+        object-fit: cover;
+        top: -25px;
+        position: relative;
+       
+        
+      }
+      html{
+            box-sizing: border-box;
+          }
+
+          *,
+           *:before, *:after {
+            box-sizing: inherit;
+           }
+
+           form {
+ width:90%;
+  max-width:500px;
+  margin:15px auto;
+}
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+  position: relative;
+  top: -668px;
+  margin-left: -39px;
+}
+#eml, #tel {
+  width:49%;
+}
+#tel {
+  float:right;
+}
+button {
+  width: 120px;
+  float:left;
+  margin-left:15px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+  top: -650px;
+  position: relative;
+}
+button:hover {
+  background-color:rgb(79, 186, 238);
+}
+
+
+        </style>
+</body>
+</html>

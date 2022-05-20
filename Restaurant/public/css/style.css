@@ -1,0 +1,168 @@
+html, body {
+    margin: 0; 
+     height: 100%;
+     overflow: hidden;
+     background-image: url("stamp.jpg");
+     
+  }
+  .stamp{
+    float: right;
+     height: 100%;
+     width: 100px;
+    transform:80px ;
+  }
+  .sub{
+    position: relative;
+    font-size:27.7px ;
+    margin-left:300px ;
+    top: -400px;
+    color: #FF5F00;
+  }
+  .buttons{
+    width: 100%;
+  }
+ 
+ .buttons a:link{
+   margin-left: -300;
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+   top:-600px;
+   font-size: 22.7px;
+   font-weight: 500px;
+   text-decoration: none;
+
+  
+   
+ }
+ .buttons a:visited{
+   color: #DFDFDE;
+ }
+ .head a:link{
+   text-decoration: none;
+ }
+ .head a:visited{
+   color: #82954B;
+   text-decoration: none;
+ }
+ .buttons a:hover{
+  box-shadow:  #555;
+  color: #555;             
+ }
+ .buttons a{
+  color: #555;
+  font-family: 'Futura', sans-serif;
+  
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}        
+ 
+  .btn  {
+    background-color: #FF5F00 !important;
+    color: #DFDFDE;
+    border-radius: 12px;
+  }
+  .btn{
+    top: -235px;
+    position: relative;
+    margin-left: 300px;
+  }
+  .fa-solid {
+    color: #FF5F00;
+  }
+  .head {
+    margin-left: 297px;
+    top: -600px;
+    position: relative;
+    color: #FF5F00;
+    font-weight: 500;
+    font-size: 30.4px;
+ 
+  }
+.h-2 {
+  font-size: 76.6px ;
+  color: #FF5F00;
+  margin-left: 300px;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top: -500px;
+  
+  
+
+}
+  .ni{
+    margin-left: 300px;
+    position: relative;
+    color: #DFDFDE;
+    font-weight: 500;
+    font-size: 22.7px;
+    top: -10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: o;
+    left: 0;
+    background-color: rgba(0, 0, 255, 0.1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #EFD345;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+   .rectangle {
+    max-height: 100%;
+    max-width: 100%;
+    top: -300px;
+    background-color: #fff;
+    margin-left: 68px;
+    position: relative; 
+    
+  } 
+img{
+  height: 100%;
+  width: 286px;
+  object-fit: cover;
+  top: -20px;
+  position: relative;
+ 
+  
+}
