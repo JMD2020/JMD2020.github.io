@@ -1,4 +1,4 @@
-## Joseph Debblay
+## Joseph Debblay II
 
 You can use the [editor on GitHub](https://github.com/JMD2020/JMD2020.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
