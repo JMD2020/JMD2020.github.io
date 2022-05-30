@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 
-const homeStartingContent = "This journal, touches on all things coding.";
+const homeStartingContent = "This journal touches on all things coding.";
         
 const aboutContent = " This journal is for my coding notes to help prepare me for a job in the tech industry.";
 
