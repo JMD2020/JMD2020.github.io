@@ -52,6 +52,9 @@ font-weight: 800;
 		background-color: none;
 		text-decoration: none;
 }
+.con a:hover{
+		color: #b91a2f;
+	}
 	
 	.class-1 {
 		border: dotted #dfdfdf 20px;
