@@ -47,6 +47,11 @@ font-weight: 800;
 		padding: 50px 0 20px;
 		
 	}
+.con a:link{
+		color: #949;
+		background-color: none;
+		text-decoration: none;
+}
 	
 	.class-1 {
 		border: dotted #dfdfdf 20px;
