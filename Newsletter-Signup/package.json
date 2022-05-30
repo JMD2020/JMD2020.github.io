@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "defaults": "^1.0.3",
+    "express": "^4.17.2",
+    "request": "^2.88.2"
+  },
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
