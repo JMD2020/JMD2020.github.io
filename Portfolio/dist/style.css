@@ -568,7 +568,7 @@ html,body {
   /* Project Cards */
   .image> img{
 	height:100px;
-	max-width: 500px;
+	max-width: 100px;
 	border-radius: 20%;
   }
    
